@@ -1,12 +1,9 @@
 import React from 'react';
-import NewsAPI from 'newsapi';
-import axios from 'axios';
 import styles from './News.css';
 
 const News = ({articles}) => {
  
   const news = articles 
-  console.log(news)
   const newsData = news.map(article => {
     return (
       <li> 
